@@ -1,0 +1,42 @@
+#spacex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+.crew-card {
+  display: flex;
+}
+
+.crew-image {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgba(65, 65, 65, 0.1);
+  padding: 2px;
+}
+
+.crew-info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+  margin-left: 25px;
+}
+
+.crew-name {
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+}
+
+.crew-role {
+  font-size: small;
+  font-weight: 600;
+  color: rgb(155, 155, 155);
+}

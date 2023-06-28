@@ -1,4 +1,4 @@
-import './flightcard.css';
+import './Flightcard.css';
 
 export default function Flightcard() {
   return (
