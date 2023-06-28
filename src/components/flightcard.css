@@ -1,0 +1,34 @@
+.flight-card {
+  display: flex;
+  padding: 8px;
+}
+
+.flight-image {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgba(65, 65, 65, 0.1);
+  padding: 2px;
+}
+
+.flight-info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+  margin-left: 25px;
+}
+
+.flight-number {
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+}
+
+#flight-details {
+  font-size: small;
+  font-weight: 600;
+  color: rgb(155, 155, 155);
+}

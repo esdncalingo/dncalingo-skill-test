@@ -1,0 +1,28 @@
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+#searchbar {
+  border: none;
+  padding: .7rem;
+  box-shadow: 0 2px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+#searchbar::placeholder{
+  color: rgb(112, 112, 112);
+  font-style: italic !important;
+  font-weight: 600;
+}
